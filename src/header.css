@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(225,225, 225);
+}
+
+header{
+    background-color: orange;
+    width: auto;
+    height: 50px;
+    box-shadow: 30px;
+}
+
+.grid-container-three{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    align-items: center;
+}
+
+.grid-container-two{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.grid-item{    
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline;
+    align-items: center;
+    border: 2px rgb(0, 0, 0);
+}
+
+.grid-item a{        
+    background-color: white;
+}
+
+.grid-item a:hover{    
+    background-color: white;
+}
